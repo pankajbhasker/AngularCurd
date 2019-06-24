@@ -10,13 +10,13 @@ export class PhoneformatPipe implements PipeTransform {
       return;
     } else {
       const country = '+91';
-      console.log(value);
+      // console.log(value);
       const city = value.slice(0, 3);
-      console.log(city);
+      // console.log(city);
       const state = value.slice(3, 6);
-      console.log(state);
+      // console.log(state);
       const phoneN = value.slice(6);
-      console.log(phoneN);
+      // console.log(phoneN);
 
       const phone = value.slice(0, 3) + '-' + state + '-' + phoneN;
       return country + '-' + phone;
