@@ -23,10 +23,15 @@
             <td>{{reader.id}}</td>
             <td>{{reader.name}}</td>
             <td>{{reader.email}}</td>
-            <td>{{reader.phone}}</td>
+            <td>{{reader.phone | phoneformat }}</td>
             <td>
-              <span class="edit" routerLink="/reader-update/{{reader.id}}">Edit</span>
-              <span class="delete" (click)="deletereader(reader.id)">Delete</span>
+
+              <span style="font-size: 20px; color: Dodgerblue;">
+                <i class='fas fa-user-edit ' routerLink="/reader-update/{{reader.id}}"></i>
+              </span>
+              <span style="font-size: 20px; color: Dodgerblue;">
+                <i class="fas fa-user-times" (click)="deletereader(reader.id)" style="padding-left:25px;"></i>
+              </span>
             </td>
           </tr>
         </tbody>

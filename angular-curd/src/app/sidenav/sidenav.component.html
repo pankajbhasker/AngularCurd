@@ -1,0 +1,7 @@
+<mat-nav-list>
+    <a mat-list-item routeLinkActive="active" *ngFor="let nav of items"  (click)="clickedListItem(nav.url,nav.id)">
+            <mat-icon svgIcon="menu"></mat-icon>
+            <span *ngIf = "language=='0'">{{nav.text}} </span>
+            <span *ngIf = "language=='1'">{{nav.textEN}}</span>
+    </a>
+</mat-nav-list>

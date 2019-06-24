@@ -1,0 +1,26 @@
+.toolbar-spacer{
+    flex: 1 1 auto;
+}
+
+.toolbar {
+    position: fixed;
+    /* Make sure the toolbar will stay on top of the content as it scrolls past. */
+    z-index: 2;
+  }
+
+h5{
+    padding-left: 8px;
+}
+
+.mat-icon{
+    cursor: pointer;
+}
+
+.margin{
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+/* .mat-button-toggle-group{
+    margin-right: 16px;
+} */

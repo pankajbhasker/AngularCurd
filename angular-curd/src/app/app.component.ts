@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-curd';
+  title = 'Angular-Curd with Form Validation';
 }
+

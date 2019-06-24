@@ -1,0 +1,8 @@
+.fa-user-edit:hover{
+    color:green !important;
+    cursor: pointer;
+ }
+ .fa-user-times:hover{
+    color:red !important;
+    cursor: pointer;
+ }
